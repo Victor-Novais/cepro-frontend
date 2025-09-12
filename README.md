@@ -21,6 +21,25 @@ O design da interface do usuário (UI) e a experiência do usuário (UX) foram d
 * **[Figma - CEPRO](https://www.figma.com/design/7tZC0MoHYVEVBjESuFJ33I/CEPRO?node-id=1-2&p=f&t=D6JxITwqqKjk7afU-0)**
 
 ---
+### Estrutura de Pastas
+
+A organização do projeto segue uma arquitetura modular, com a separação de responsabilidades para facilitar a manutenção e a escalabilidade.
+ ```bash
+src/
+└── assets/
+├── components/
+├── pages/
+├── services/
+└── types/
+ ```
+
+* **`src/assets`**: Contém arquivos estáticos como imagens, ícones e fontes.
+* **`src/components`**: Armazena os componentes de interface de usuário (UI) reutilizáveis.
+* **`src/pages`**: Armazena os componentes de alto nível que representam as páginas ou rotas da aplicação (ex: `LoginPage.tsx`, `HomePage.tsx`).
+* **`src/services`**: Contém a lógica para a comunicação com APIs externas e outros serviços.
+* **`src/types`**: Define tipos de dados globais e interfaces para o TypeScript, garantindo consistência.
+
+---
 
 ### Configuração e Execução do Projeto
 

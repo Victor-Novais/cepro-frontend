@@ -1,0 +1,93 @@
+.header-container {
+  font-family: sans-serif;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.top-bar a {
+  color: gray; 
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+
+
+.search-bar .search-icon {
+  color: #0066FF;
+  font-size: 1.2rem;
+}
+
+.search-bar input {
+  background-color: white;  
+  color: black;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  margin-left: 0.5rem;
+  width: 300px; 
+}
+
+.auth-buttons .btn-signup {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.auth-buttons .btn-signin {
+  background-color: transparent;
+  color: #007bff;
+  border: 1px solid #007bff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.flag-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 0.5rem;
+}
+
+.logo {
+  height: 40px; 
+}
+
+.contact-info {
+  color: black;
+  font-size: 0.9rem;  
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  gap: 0.5rem;
+}
+
+.top-bar {
+  background-color: #F1F2F4;
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.main-nav {
+  background-color: white;
+}

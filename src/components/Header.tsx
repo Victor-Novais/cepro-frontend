@@ -4,25 +4,24 @@ import './Header.css';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { IoSearch } from 'react-icons/io5';
 
-// 1. Definimos a interface para as props do nosso componente
+
 interface HeaderProps {
-  userName?: string; // O '?' torna a prop opcional. O Header pode ou não receber um nome de usuário.
+  userName?: string; 
 }
 
-// 2. Usamos React.FC (Functional Component) e passamos nossa interface de Props
 const Header: React.FC<HeaderProps> = ({ userName }) => {
   return (
     <header className="header-container">
       
       <div className="top-bar">
-        <a href="/">Home</a>
-        
+        <div className="top-bar-left">
+        <a href="/" className="home">Home</a>
         <a href="#">Buscar Vagas</a>
         <a href="#">Minhas Inscrições</a>
         <a href="#">Notificações</a>
         <a href="#">Meu Perfil</a>
         <a href="#">Suporte ao aluno</a>
-
+        </div>
 
         <div className="contact-info">
               <FaPhoneAlt />

@@ -10,6 +10,7 @@
   border-bottom: 1px solid #eee;
 }
 
+
 .search-bar {
   display: flex;
   align-items: center;
@@ -23,22 +24,43 @@
   color: gray; 
   text-decoration: none;
   margin-right: 1.5rem;
+  size: 14px;
+}
+
+.top-bar .top-bar-left .home {
+  color: #0A65CC;
 }
 
 
 .search-bar .search-icon {
   color: #0066FF;
   font-size: 1.2rem;
+  
+}
+
+.search-bar {
+  width: 500px;      
+  height: 48px;      
+  display: flex;
+  align-items: center;
+  background-color: white;  
+  font-size: 1rem;
+  border: none;
+  border-color: gray;
+  padding: 0 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  margin-right: 100px;
 }
 
 .search-bar input {
-  background-color: white;  
   color: black;
-  font-size: 1rem;
+  width: 100%;
+  height: 100%;
   border: none;
   outline: none;
-  margin-left: 0.5rem;
-  width: 300px; 
+  font-size: 1.1rem; 
+  background: transparent;
+  margin-left: 8px;
 }
 
 .auth-buttons .btn-signup {
@@ -67,7 +89,7 @@
 }
 
 .logo {
-  height: 40px; 
+  height: 80px; 
 }
 
 .contact-info {
@@ -75,8 +97,10 @@
   font-size: 0.9rem;  
   display: flex;
   align-items: center;
-  margin-right: 50px;
+  margin-right: 5px;
+  margin-left: 125px;
   gap: 0.5rem;
+  padding-left: 0px;
 }
 
 .top-bar {
@@ -86,6 +110,11 @@
   justify-content: flex-start;
   gap: 1.5rem;
   font-size: 0.9rem;
+}
+
+.top-bar .top-bar-left {
+  padding-left: 45px;
+
 }
 
 .main-nav {
